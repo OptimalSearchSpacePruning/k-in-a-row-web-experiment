@@ -17,4 +17,7 @@ http://localhost:63342/k-in-a-row-web-experiment/tictactoe/tictactoe.html?board=
 By default, you will have to answer the quiz questions to proceed. You can avoid this by adding "debug=1" to the url, e.g.:
 http://localhost:63342/k-in-a-row-web-experiment/tictactoe/tictactoe.html?board=1f&debug=1
 
+Currently, the code does not log any information to the database so that it can run without deployment. 
+This can be changed by removing the first line in the "servlog" function in the file experiment-tools.js, and configuring a server database in the logger/credentials.py file.
+
 For questions, you can email Ofra Amir <oamir@technion.ac.il>

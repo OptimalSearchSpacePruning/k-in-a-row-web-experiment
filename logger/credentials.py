@@ -1,5 +1,5 @@
-user = "complexity"
-passwd = "JeXDppt"
+user = "ADD YOUR SQL USER"
+passwd = "ADD YOUR SQL PASSWORD"
 host = "localhost"
 
 
